@@ -5,7 +5,7 @@
 # PROGRAMMER:    Artem Voronoff
 # DATE CREATED:  06-04-2021                 
 # REVISED DATE:        
-# PURPOSE: Create a function adjust_results4_isadog that adjusts the results 
+# PURPOSE: Creating a function adjust_results4_isadog that adjusts the results 
 #          dictionary to indicate whether or not the pet image label is of-a-dog, 
 #          and to indicate whether or not the classifier image label is of-a-dog.
 #          All dog labels from both the pet images and the classifier function
@@ -31,7 +31,7 @@
 #           label isn't a dog.
 #
 ##
-# TODO 4: Define adjust_results4_isadog function below, specifically replace the None
+#       Defining adjust_results4_isadog function below, specifically replace the None
 #       below by the function definition of the adjust_results4_isadog function. 
 #       Notice that this function doesn't return anything because the 
 #       results_dic dictionary that is passed into the function is a mutable 
@@ -75,16 +75,6 @@ def adjust_results4_isadog(results_dic, dogfile):
         # Processes each line in file until reaching EOF (end-of-file) by 
         # processing line and adding dognames to dognames_dic with while loop
             
-            #TODO: 4a. REPLACE pass with CODE to remove the newline character
-            #           from the variable line  
-            #
-            # Process line by striping newline from line
-
-            # TODO: 4b. REPLACE pass with CODE to check if the dogname(line) 
-            #          exists within dognames_dic, then if the dogname(line) 
-            #          doesn't exist within dognames_dic then add the dogname(line) 
-            #          to dognames_dic as the 'key' with the 'value' of 1. 
-            #
             # adds dogname(line) to dogsnames_dic if it doesn't already exist 
             # in the dogsnames_dic dictionary
     dognames_dic = {}
