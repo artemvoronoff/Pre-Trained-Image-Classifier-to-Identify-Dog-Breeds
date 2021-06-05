@@ -5,7 +5,7 @@
 # PROGRAMMER: 
 # DATE CREATED: Artem Voronoff                                
 # REVISED DATE: 06/04/2021
-# PURPOSE: Create a function classify_images that uses the classifier function 
+# PURPOSE: Creating a function classify_images that uses the classifier function 
 #          to create the classifier labels and then compares the classifier 
 #          labels to the pet image labels. This function inputs:
 #            -The Image Folder as image_dir within classify_images and function 
@@ -23,8 +23,6 @@
 # Imports classifier function for using CNN to classify images 
 from classifier import classifier 
 
-# TODO 3: Define classify_images function below, specifically replace the None
-#       below by the function definition of the classify_images function. 
 #       Notice that this function doesn't return anything because the 
 #       results_dic dictionary that is passed into the function is a mutable 
 #       data type so no return is needed.
