@@ -17,3 +17,5 @@ The more images of two similar looking dog breeds that the algorithm has "learne
 
 For objective 1, notice that both ```VGG``` and ```AlexNet``` correctly identify images of "dogs" and "not-a-dog" 100% of the time.
 For objective 2, ```VGG``` provides the best solution because it classifies the correct breed of dog over 90% of the time.
+
+![Results](/images/results.JPG)
