@@ -41,10 +41,9 @@ def get_pet_labels(image_dir):
          index 0 = pet image label (string)
     """
     
-    # Retrieve the filenames from folder pet_images/
+    # Retrieves the filenames from folder pet_images/
     filename_list = listdir("pet_images/")
     
-    # Print 10 of the filenames from folder pet_images/
     print("\nPrint 10 filenames from folder pet_images/")
     for idx in range(0, 10, 1):
         print("{:2d} file: {:>25}".format(idx + 1, filename_list[idx]))
