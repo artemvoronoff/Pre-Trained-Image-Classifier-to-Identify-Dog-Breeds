@@ -5,7 +5,7 @@
 # PROGRAMMER: Artem Voronoff
 # DATE CREATED: 06-05-2021                     
 # REVISED DATE: 
-# PURPOSE: Create a function calculates_results_stats that calculates the 
+# PURPOSE: Creating a function calculates_results_stats that calculates the 
 #          statistics of the results of the programrun using the classifier's model 
 #          architecture to classify the images. This function will use the 
 #          results in the results dictionary to calculate these statistics. 
@@ -38,9 +38,7 @@
 #            pct_correct_notdogs - percentage of correctly classified NON-dogs
 #
 ##
-# TODO 5: Define calculates_results_stats function below, please be certain to replace None
-#       in the return statement with the results_stats_dic dictionary that you create 
-#       with this function
+# 
 # 
 def calculates_results_stats(results_dic):
     """
@@ -67,9 +65,7 @@ def calculates_results_stats(results_dic):
                      and the value is the statistic's value. See comments above
                      and the previous topic Calculating Results in the class for details
                      on how to calculate the counts and statistics.
-    """        
-    # Replace None with the results_stats_dic dictionary that you created with 
-    # this function 
+    """         
     results_stats_dic = dict()
     
     results_stats_dic['n_dogs_img'] = 0
